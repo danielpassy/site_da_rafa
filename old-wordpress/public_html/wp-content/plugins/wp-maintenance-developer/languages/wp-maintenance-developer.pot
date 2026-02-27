@@ -1,0 +1,106 @@
+# Copyright (C) 2015 WordPress Maintenance Developer
+# This file is distributed under the same license as the WordPress Maintenance Developer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Maintenance Developer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-maintenance-"
+"developer\n"
+"POT-Creation-Date: 2015-10-11 20:48:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: wp-maintenance-developer.php:113
+msgid "Configure the details of the maintenance mode"
+msgstr ""
+
+#: wp-maintenance-developer.php:120
+msgid "Enable maintenance mode:"
+msgstr ""
+
+#: wp-maintenance-developer.php:128
+msgid "Motive of maintenance:"
+msgstr ""
+
+#: wp-maintenance-developer.php:136
+msgid "The following pages have free access:"
+msgstr ""
+
+#: wp-maintenance-developer.php:144
+msgid "Who can access:"
+msgstr ""
+
+#: wp-maintenance-developer.php:163
+msgid "The maintenance mode will end in <strong>%s</strong>"
+msgstr ""
+
+#: wp-maintenance-developer.php:176
+msgid "I want to enable"
+msgstr ""
+
+#: wp-maintenance-developer.php:183
+msgid "Back in:"
+msgstr ""
+
+#: wp-maintenance-developer.php:184
+msgid "Days"
+msgstr ""
+
+#: wp-maintenance-developer.php:185
+msgid "Hours"
+msgstr ""
+
+#: wp-maintenance-developer.php:186
+msgid "Minutes"
+msgstr ""
+
+#: wp-maintenance-developer.php:215
+msgid "Access the administrative panel:"
+msgstr ""
+
+#: wp-maintenance-developer.php:226
+msgid "Access the public site:"
+msgstr ""
+
+#: wp-maintenance-developer.php:245 wp-maintenance-developer.php:246
+msgid "Maintenance mode"
+msgstr ""
+
+#: wp-maintenance-developer.php:260
+msgid "General Settings"
+msgstr ""
+
+#: wp-maintenance-developer.php:436 wp-maintenance-developer.php:448
+msgid "Currently this site is in MAINTENANCE MODE."
+msgstr ""
+
+#: wp-maintenance-developer.php:449
+msgid ""
+"To exit the maintenance mode just change the settings <a href=\"%s"
+"\">clicking here</a>."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Maintenance Developer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/devimweb/wp-maintenance-developer"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add a page that prevents your site's content view. Ideal to report a "
+"scheduled maintenance or coming soon page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Miguel Müller"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.devim.com.br"
+msgstr ""

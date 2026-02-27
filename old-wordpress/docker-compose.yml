@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  wordpress:
+    build: .
+    container_name: wp_site
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public_html:/var/www/html
+    environment:
+      WORDPRESS_DB_HOST: db:3306  # This must match MySQL service name
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: wppassword
+      APACHE_DOCUMENT_ROOT: /var/www/html
+    # depends_on:
+    #   - mysql
+    networks:
+      - wp_network
+
+  # mysql:
+  #   image: mysql:5.7
+  #   container_name: db  # Change from wp_mysql to db
+  #   ports:
+  #     - "3306:3306"
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: rootpassword
+  #     MYSQL_DATABASE: wordpress
+  #     MYSQL_USER: wpuser
+  #     MYSQL_PASSWORD: wppassword
+  #   volumes:
+  #     - mysql_data:/var/lib/mysql
+  #   networks:
+  #     - wp_network
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: wp_phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: rootpassword
+    # depends_on:
+    #   - mysql
+    networks:
+      - wp_network
+
+volumes:
+  mysql_data:
+
+networks:
+  wp_network:
+    driver: bridge

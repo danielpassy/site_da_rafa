@@ -1,0 +1,154 @@
+# Translation of Plugins - Join.chat - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Join.chat - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-07 13:41:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Join.chat - Stable (latest release)\n"
+
+#: admin/class-joinchat-admin.php:498 admin/class-joinchat-admin.php:655
+#: admin/class-joinchat-admin.php:931
+msgid "Hide"
+msgstr "Ocultar"
+
+#: admin/class-joinchat-admin.php:462
+msgid "Restore default visibility"
+msgstr "Restaurar visibilidade padrão"
+
+#: admin/class-joinchat-admin.php:100
+msgid "General"
+msgstr "Geral"
+
+#: admin/class-joinchat-wooadmin.php:130
+msgid "Cart"
+msgstr "Carrinho"
+
+#: admin/class-joinchat-admin.php:284
+msgid "Page"
+msgstr "Página"
+
+#: admin/class-joinchat-admin.php:285
+msgid "Post"
+msgstr "Post"
+
+#: admin/class-joinchat-admin.php:271
+msgid "Global"
+msgstr "Geral"
+
+#: admin/class-joinchat-admin.php:280
+msgid "Archives"
+msgstr "Arquivos"
+
+#: admin/class-joinchat-wooadmin.php:128
+msgid "Shop"
+msgstr "Loja"
+
+#: admin/class-joinchat-admin.php:496 admin/class-joinchat-admin.php:653
+#: admin/class-joinchat-admin.php:929
+msgid "Show"
+msgstr "Mostrar"
+
+#: admin/class-joinchat-admin.php:500
+msgid "Inherit"
+msgstr "Herdar"
+
+#: admin/class-joinchat-admin.php:276
+msgid "Front Page"
+msgstr "Página inicial"
+
+#: admin/class-joinchat-admin.php:278
+msgid "404 Page"
+msgstr "Página 404"
+
+#: admin/class-joinchat-admin.php:279
+msgid "Search Results"
+msgstr "Resultados da pesquisa"
+
+#: admin/class-joinchat-admin.php:281
+msgid "Date Archives"
+msgstr "Arquivos de data"
+
+#: admin/class-joinchat-admin.php:282
+msgid "Author Archives"
+msgstr "Arquivos do autor"
+
+#: admin/class-joinchat-admin.php:283
+msgid "Singular"
+msgstr "Individual"
+
+#: admin/class-joinchat-wooadmin.php:129
+msgid "Product Page"
+msgstr "Página de produto"
+
+#: admin/class-joinchat-wooadmin.php:132
+msgid "My Account"
+msgstr "Minha conta"
+
+#: admin/class-joinchat-admin.php:470
+msgid "Custom Post Types"
+msgstr "Tipos de posts personalizados"
+
+#: admin/class-joinchat-admin.php:461
+msgid "From here you can configure on which pages the WhatsApp button will be visible."
+msgstr "A partir daqui você pode configurar em quais páginas o botão do WhatsApp será visível."
+
+#: admin/class-joinchat-admin.php:933
+msgid "Default visibility"
+msgstr "Visibilidade padrão"
+
+#: admin/class-joinchat-admin.php:277
+msgid "Blog Page"
+msgstr "Página do blog"
+
+#: admin/class-joinchat-wooadmin.php:131
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: admin/class-joinchat-admin.php:244 admin/class-joinchat-admin.php:920
+msgid "Message"
+msgstr "Mensagem"
+
+#: admin/class-joinchat-admin.php:563
+msgid ""
+"Hello 👋\n"
+"Can we help you?"
+msgstr ""
+"Olá 👋\n"
+"Podemos te ajudar?"
+
+#: admin/class-joinchat-admin.php:530
+msgid "Right"
+msgstr "Direita"
+
+#: admin/class-joinchat-admin.php:528
+msgid "Left"
+msgstr "Esquerda"
+
+#: admin/class-joinchat-admin.php:393
+msgid "Settings saved"
+msgstr "Configurações salvas"
+
+#: admin/class-joinchat-admin.php:757
+msgid "Settings"
+msgstr "Configurações"
+
+#. Author of the plugin
+msgid "Creame"
+msgstr "Creame"
+
+#. Author URI of the plugin
+msgid "https://crea.me"
+msgstr "https://crea.me"
+
+#: admin/class-joinchat-admin.php:522
+msgid "Only display the button on mobile devices"
+msgstr "Exibirá o botão do WhatsApp apenas em celulares"
+
+#: admin/class-joinchat-admin.php:243 admin/class-joinchat-admin.php:912
+msgid "Telephone"
+msgstr "Telefone"
