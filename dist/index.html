@@ -529,10 +529,10 @@
                         para te ajudar.
                     </p>
                     <div class="socials" aria-label="Redes sociais">
-                        <a class="social" href="#" aria-label="WhatsApp">
+                        <a class="social" id="contact-whatsapp-link" href="https://api.whatsapp.com/send?phone=5521974033990&amp;text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta." aria-label="WhatsApp" target="_blank" rel="noopener">
                             <img src="images/icons/whatsapp.svg" alt="WhatsApp" />
                         </a>
-                        <a class="social" href="#" aria-label="Instagram">
+                        <a class="social" id="contact-instagram-link" href="https://www.instagram.com/rafaella.psicologia/" aria-label="Instagram" target="_blank" rel="noopener">
                             <img src="images/icons/instagram.svg" alt="Instagram" />
                         </a>
                     </div>
@@ -550,16 +550,14 @@
         © 2026 Rafaella Pontes Psicóloga. Todos os direitos reservados.
     </footer>
 
-    <a href="#contato" class="floating-wa" aria-label="WhatsApp">
+    <a href="https://api.whatsapp.com/send?phone=5521974033990&amp;text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta." id="floating-whatsapp-link" class="floating-wa" aria-label="WhatsApp" target="_blank" rel="noopener">
         <img src="images/icons/whatsapp.svg" alt="WhatsApp" />
     </a>
 
     <script>
-        (function () {
-            var WHATSAPP_NUMBER = "5511999999999";
-            var form = document.getElementById("contact-form");
-            if (!form) return;
+        var form = document.getElementById("contact-form");
 
+        if (form) {
             form.addEventListener("submit", function (event) {
                 event.preventDefault();
                 var nameInput = form.querySelector('input[type="text"]');
@@ -571,14 +569,10 @@
                 if (name) text += "\n\nNome: " + name;
                 if (message) text += "\nMensagem: " + message;
 
-                var url =
-                    "https://api.whatsapp.com/send?phone=" +
-                    encodeURIComponent(WHATSAPP_NUMBER) +
-                    "&text=" +
-                    encodeURIComponent(text);
+                var url = "https://api.whatsapp.com/send?phone=5521974033990&text=" + encodeURIComponent(text);
                 window.open(url, "_blank", "noopener");
             });
-        })();
+        }
     </script>
 </body>
 </html>
